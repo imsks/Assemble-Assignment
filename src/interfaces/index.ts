@@ -6,3 +6,8 @@ export interface TestUser {
 export interface TestUsersList {
   users: Array<TestUser>;
 }
+
+export type MeuseumVisitorData = {
+  museum: string;
+  visitors: string;
+};
